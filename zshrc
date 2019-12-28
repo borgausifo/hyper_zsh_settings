@@ -58,6 +58,8 @@ alias c='clear'
 # Quick Lunch for Sublime Text Editor
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 
+# Creating tree structure for folder
+alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 
  # ------------------ #
 
